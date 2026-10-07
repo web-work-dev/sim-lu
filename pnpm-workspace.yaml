@@ -1,0 +1,13 @@
+# pnpm-workspace.yaml
+
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "examples/*"
+allowBuilds:
+  '@swc/core': true
+  better-sqlite3: true
+  esbuild: true
+  oracledb: true
+overrides:
+  "uWebSockets.js": "github:uNetworking/uWebSockets.js"

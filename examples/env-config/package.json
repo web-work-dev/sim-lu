@@ -1,0 +1,26 @@
+{
+    "name": "env-config-example",
+    "version": "1.0.0",
+    "description": "Example showing environment variable configuration with validation via @sim-lu framework",
+    "type": "module",
+    "main": "./src/index.ts",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "start": "tsc && node dist/index.js",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@sim-lu/common": "workspace:*",
+        "@sim-lu/core": "workspace:*",
+        "@sim-lu/database": "workspace:*",
+        "@sim-lu/error": "workspace:*",
+        "@sim-lu/platform-express": "workspace:*",
+        "@sim-lu/http": "workspace:*",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.2",
+        "tsx": "^4.23.13",
+        "typescript": "^7.0.2"
+    }
+}

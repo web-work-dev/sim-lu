@@ -1,0 +1,1 @@
+{"version":3,"file":"injectable.d.ts","sourceRoot":"","sources":["../../src/decorates/injectable.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,kBAAkB,EAAE,MAAM,sBAAsB,CAAC;AAE/D;;;;;GAKG;AACH,wBAAgB,UAAU,CACtB,QAAQ,GAAE,kBAAuB,GAClC,cAAc,CAUhB"}

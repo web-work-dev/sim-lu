@@ -1,0 +1,25 @@
+{
+    "name": "uws-minimal",
+    "version": "1.0.0",
+    "description": "Minimal example: run an HTTP server with @sim-lu/platform-uws (uWebSockets.js)",
+    "type": "module",
+    "main": "./src/index.ts",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "start": "tsc && node dist/index.js",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@sim-lu/common": "workspace:*",
+        "@sim-lu/core": "workspace:*",
+        "@sim-lu/database": "workspace:*",
+        "@sim-lu/error": "workspace:*",
+        "@sim-lu/platform-uws": "workspace:*",
+        "uWebSockets.js": "github:uNetworking/uWebSockets.js"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.2",
+        "tsx": "^4.23.13",
+        "typescript": "^7.0.2"
+    }
+}

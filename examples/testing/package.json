@@ -1,0 +1,21 @@
+{
+    "name": "testing-example",
+    "version": "1.0.0",
+    "description": "Example showing integration testing with supertest-like tests for @sim-lu framework",
+    "type": "module",
+    "scripts": {
+        "test": "vitest run"
+    },
+    "dependencies": {
+        "@sim-lu/common": "workspace:*",
+        "@sim-lu/core": "workspace:*",
+        "@sim-lu/database": "workspace:*",
+        "@sim-lu/error": "workspace:*",
+        "@sim-lu/platform-express": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.2",
+        "typescript": "^7.0.2",
+        "vitest": "^3.0.0"
+    }
+}

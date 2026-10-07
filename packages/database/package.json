@@ -1,0 +1,48 @@
+{
+  "name": "@sim-lu/database",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --config ../../vitest.config.ts"
+  },
+  "dependencies": {
+    "@sim-lu/common": "workspace:*",
+    "@sim-lu/core": "workspace:*",
+    "@sim-lu/error": "workspace:*"
+  },
+  "peerDependencies": {
+    "knex.js": "*",
+    "pg": "*",
+    "mssql": "*",
+    "mysql2": "*",
+    "oracledb": "*",
+    "better-sqlite3": "*"
+  },
+  "peerDependenciesMeta": {
+    "pg": {
+      "optional": true
+    },
+    "mssql": {
+      "optional": true
+    },
+    "mysql2": {
+      "optional": true
+    },
+    "oracledb": {
+      "optional": true
+    }
+  }
+}

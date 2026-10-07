@@ -1,0 +1,31 @@
+{
+  "name": "@sim-lu/core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --config ../../vitest.config.ts"
+  },
+  "devDependencies": {
+    "@sim-lu/platform-express": "workspace:*",
+    "@sim-lu/platform-uws": "workspace:*"
+  },
+  "dependencies": {
+    "@sim-lu/common": "workspace:*",
+    "@sim-lu/error": "workspace:*",
+    "@sim-lu/http": "workspace:*",
+    "reflect-metadata": "^0.2.2"
+  }
+}

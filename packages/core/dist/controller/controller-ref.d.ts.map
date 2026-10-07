@@ -1,0 +1,1 @@
+{"version":3,"file":"controller-ref.d.ts","sourceRoot":"","sources":["../../src/controller/controller-ref.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,uBAAuB,CAAC;AAEzD,qBAAa,aAAa,CAAC,WAAW,SAAS,MAAM;aAE7B,KAAK,EAAE,WAAW,CAAC,WAAW,CAAC;aAC/B,QAAQ,EAAE,WAAW;IAFzC,YACoB,KAAK,EAAE,WAAW,CAAC,WAAW,CAAC,EAC/B,QAAQ,EAAE,WAAW,EACpC;CACR"}
